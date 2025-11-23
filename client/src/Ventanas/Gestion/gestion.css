@@ -1,0 +1,95 @@
+.header-gestion{
+    margin-top: 10px;;
+     width: 80%; /* o 80% según lo que necesites */
+  margin: 20px auto;
+  text-align: center;   
+}
+.header-gestion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.logo {
+  width: 200px;          /* Tamaño ancho */
+  height: 80px;          /* Altura proporcional */
+  border-radius: 10px;   /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Sombra suave */
+  transition: transform var(--transition-speed), box-shadow var(--transition-speed);
+  cursor: pointer;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+  
+}
+
+.login-buttong, .admin-buttong {
+  background-color: #4d4e4f;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  
+}
+
+.card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px;
+  font-weight: bold;
+}
+.input-group-text {
+  background-color: #e6e7e7;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 1px;
+  height: 40px; 
+  min-width: 120px; /* Tamaño mínimo común */
+
+  text-align: center; /* Centrado horizontal */
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal (en caso de flex) */
+}
+.card-body{
+         width: 80%;
+         position: center;
+         margin-left: 60px;
+}
+.form-control{
+    background-color: #ffffff;
+  border: 1px solid #a8a8a8;
+  border-radius: 0.25rem;
+  padding: 1px;
+  height: 40px; 
+  min-width: 120px; /* Tamaño mínimo común */
+
+  text-align: center; /* Centrado horizontal */
+  display: flex;
+  align-items: center; /* Centrado vertical */
+  justify-content: center; /* Centrado horizontal (en caso de flex) */
+ margin-top: auto; 
+ min-width: 120px; /* Tamaño mínimo común */
+
+}
+.card.text-center.mt-4 {
+  width: 80%; /* o 80% según lo que necesites */
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btngestion{
+    background-color: #7e7e7e;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
